@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">⚡ Next Typescript Template ⚡</h1>
 
-## Getting Started
+<p align="center">
+  <br />
+  <img src="https://img.shields.io/github/languages/top/joaogabriel-sg/next-typescript-template" />
+  <img src="https://img.shields.io/github/issues/joaogabriel-sg/next-typescript-template" />
+  <img src="https://img.shields.io/github/forks/joaogabriel-sg/next-typescript-template" />
+  <img src="https://img.shields.io/github/stars/joaogabriel-sg/next-typescript-template" />
+  <img src="https://img.shields.io/github/license/joaogabriel-sg/next-typescript-template" />
+  <img src="https://img.shields.io/github/workflow/status/joaogabriel-sg/next-typescript-template/Build%20app%20workflow" />
+</p>
 
-First, run the development server:
+<p align="center">
+  A simple Create Next App template to start your projects with Next.js, TypeScript, ESLint, Prettier and other tools.
+</p>
+  
+<p align="center">
+  <a href="#video_game-quick-start">Quick start</a> | 
+  <a href="#rocket-technologies">Technologies</a> | 
+  <a href="#man_technologist-author">Author</a> | 
+  <a href="#memo-license">License</a> | 
+  <a href="#sparkles-show-your-support">Show your support</a>
+</p>
+
+## :video_game: Quick start
+
+:warning: Using [Yarn Package Manager](https://classic.yarnpkg.com/) is recommended over `npm`.
+
+The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
 ```bash
-npm run dev
-# or
+yarn create next-app -e https://github.com/joaogabriel-sg/next-typescript-template my-app
+```
+
+Access the project folder.
+
+```bash
+cd my-app
+```
+
+Start the project locally.
+
+```bash
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## :rocket: Technologies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [Lint-Staged](https://github.com/okonet/lint-staged)
+- [Commitizen](https://github.com/commitizen/cz-cli)
+- [Commitlint](https://github.com/conventional-changelog/commitlint)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :man_technologist: Author
 
-## Learn More
+- GitHub: [@joaogabriel-sg](https://github.com/joaogabriel-sg)
+- LinkedIn: [@joaogabriel-sg](https://www.linkedin.com/in/joaogabriel-sg/)
 
-To learn more about Next.js, take a look at the following resources:
+## :memo: License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :sparkles: Show your support
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a :star: if this project helped you or if you liked it!
