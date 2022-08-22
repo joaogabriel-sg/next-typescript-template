@@ -28,7 +28,10 @@
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --fix",
-    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write"
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "test": "jest --passWithNoTests --runInBand --verbose",
+    "test:watch": "jest --runInBand --verbose --watchAll",
+    "test:coverage": "jest --coverage --runInBand"
   },
   "dependencies": {
     "next": "12.2.0",
