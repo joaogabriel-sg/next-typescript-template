@@ -17,7 +17,9 @@
     "husky",
     "commitlint",
     "commitizen",
-    "lint-staged"
+    "lint-staged",
+    "jest",
+    "testing-library"
   ],
   "scripts": {
     "dev": "next dev",
