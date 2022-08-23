@@ -57,6 +57,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Lint-Staged](https://github.com/okonet/lint-staged)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
 
 ## :man_technologist: Author
 
