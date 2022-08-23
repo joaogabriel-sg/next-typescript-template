@@ -1,7 +1,7 @@
 {
   "name": "next-typescript-template",
   "description": "A simple Create Next App template to start your projects with Next.js, TypeScript, ESLint, Prettier and other tools.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "license": "MIT",
   "author": {
