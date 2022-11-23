@@ -1,49 +1,27 @@
-/* eslint-disable import/no-anonymous-default-export */
-export default {
+import nextJest from 'next/jest';
+
+const createJestConfig = nextJest({
+  dir: './',
+});
+
+export default createJestConfig({
   bail: true,
   clearMocks: true,
+  collectCoverage: true,
   collectCoverageFrom: [
-    'src/**/*.tsx',
-    'src/**/*.spec.tsx',
-    'src/**/*.test.tsx',
+    'src/**/*.ts(x)?',
+    'src/**/*.(spec|test).ts(x)?',
     '!src/**/_app.tsx',
     '!src/**/_document.tsx',
   ],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   moduleNameMapper: {
-    '\\.(scss|css|sass)$': '<rootDir>/src/tests/mocks/styleMock.ts',
     '@/public/(.*)': '<rootDir>/public/$1',
     '@/(.*)': '<rootDir>/src/$1',
   },
-  setupFilesAfterEnv: ['<rootDir>/src/tests/setupTests.ts'],
-  testEnvironment: 'jsdom',
-  testMatch: ['**/*.(spec|test).[jt]s?(x)'],
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
+  testEnvironment: 'jest-environment-jsdom',
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
-  transform: {
-    '^.+\\.(t|j)sx?$': [
-      '@swc/jest',
-      {
-        jsc: {
-          parser: {
-            syntax: 'typescript',
-            tsx: true,
-            decorators: true,
-          },
-          keepClassNames: true,
-          transform: {
-            legacyDecorator: true,
-            decoratorMetadata: true,
-            react: {
-              runtime: 'automatic',
-            },
-          },
-        },
-        module: {
-          type: 'es6',
-          noInterop: false,
-        },
-      },
-    ],
-  },
-};
+  verbose: true,
+});
