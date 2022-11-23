@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  A simple Create Next App template to start your projects with Next.js, TypeScript, ESLint, Prettier and other tools.
+  A simple Create Next App template to start your projects with Next.js, TypeScript, Tailwind CSS, ESLint, Prettier and other tools.
 </p>
   
 <p align="center">
@@ -51,6 +51,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
