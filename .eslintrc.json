@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:cypress/recommended", "airbnb-base", "next/core-web-vitals", "prettier"],
+  "extends": ["airbnb-base", "next/core-web-vitals", "prettier"],
   "plugins": ["unused-imports", "eslint-plugin-import-helpers", "prettier"],
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
