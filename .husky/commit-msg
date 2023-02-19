@@ -2,4 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 . "$(dirname -- "$0")/common.sh"
 
-yarn commitlint --edit $1
+message="🔥 Please check your commit ex: 'chore: add commitlint e husky'\n"
+npx --no -- commitlint --edit ${1} || (echo "$message" && exit 1)
