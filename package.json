@@ -16,7 +16,6 @@
     "prettier",
     "husky",
     "commitlint",
-    "commitizen",
     "lint-staged",
     "jest",
     "testing-library"
@@ -26,7 +25,6 @@
     "build": "next build",
     "start": "next start",
     "prepare": "husky install",
-    "commit": "cz",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --fix",
@@ -82,10 +80,5 @@
       "eslint --ignore-path .gitignore --fix",
       "prettier --ignore-path .gitignore --write"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
