@@ -17,7 +17,6 @@ export default createJestConfig({
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   moduleNameMapper: {
-    '@/public/(.*)': '<rootDir>/public/$1',
     '@/(.*)': '<rootDir>/src/$1',
   },
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
