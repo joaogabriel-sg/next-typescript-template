@@ -24,12 +24,15 @@
 
 ## :video_game: Quick start
 
-:warning: Using [Yarn Package Manager](https://classic.yarnpkg.com/) is recommended over `npm`.
-
 The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
 ```bash
+# yarn
 yarn create next-app -e https://github.com/joaogabriel-sg/next-typescript-template my-app
+# npx
+npx create next-app -e https://github.com/joaogabriel-sg/next-typescript-template my-app
+# pnpm
+pnpm create next-app -e https://github.com/joaogabriel-sg/next-typescript-template my-app
 ```
 
 Access the project folder.
@@ -41,7 +44,7 @@ cd my-app
 Start the project locally.
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
