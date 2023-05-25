@@ -25,7 +25,7 @@
     "build": "next build",
     "start": "next start",
     "prepare": "husky install",
-    "type-check": "tsc",
+    "type-check": "tsc --noEmit",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
