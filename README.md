@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/github/forks/joaogabriel-sg/next-typescript-template" />
   <img src="https://img.shields.io/github/stars/joaogabriel-sg/next-typescript-template" />
   <img src="https://img.shields.io/github/license/joaogabriel-sg/next-typescript-template" />
-  <img src="https://img.shields.io/github/workflow/status/joaogabriel-sg/next-typescript-template/Build%20app%20workflow" />
 </p>
 
 <p align="center">
