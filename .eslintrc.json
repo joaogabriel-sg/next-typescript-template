@@ -8,18 +8,36 @@
       {
         "newlinesBetween": "always",
         "groups": ["module", "/^@/", ["parent", "sibling", "index"]],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
       }
     ],
     "import/extensions": [
       "error",
       "ignorePackages",
-      { "js": "never", "jsx": "never", "ts": "never", "tsx": "never" }
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
     ],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "import/no-unresolved": "error",
     "import/prefer-default-export": "off",
-    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [
       "warn",
@@ -42,6 +60,7 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
+        "plugin:storybook/recommended",
         "plugin:tailwindcss/recommended",
         "next/core-web-vitals",
         "prettier"
@@ -58,7 +77,9 @@
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-unused-vars": [
           "warn",
-          { "argsIgnorePattern": "^_" }
+          {
+            "argsIgnorePattern": "^_"
+          }
         ],
         "camelcase": "off",
         "class-methods-use-this": "off",
@@ -67,17 +88,27 @@
           {
             "newlinesBetween": "always",
             "groups": ["module", "/^@/", ["parent", "sibling", "index"]],
-            "alphabetize": { "order": "asc", "ignoreCase": true }
+            "alphabetize": {
+              "order": "asc",
+              "ignoreCase": true
+            }
           }
         ],
         "import/extensions": [
           "error",
           "ignorePackages",
-          { "js": "never", "jsx": "never", "ts": "never", "tsx": "never" }
+          {
+            "js": "never",
+            "jsx": "never",
+            "ts": "never",
+            "tsx": "never"
+          }
         ],
         "import/no-extraneous-dependencies": [
           "error",
-          { "devDependencies": true }
+          {
+            "devDependencies": true
+          }
         ],
         "import/no-unresolved": "error",
         "import/prefer-default-export": "off",
@@ -92,13 +123,26 @@
         "no-console": "warn",
         "no-param-reassign": [
           "error",
-          { "props": true, "ignorePropertyModificationsFor": ["state"] }
+          {
+            "props": true,
+            "ignorePropertyModificationsFor": ["state"]
+          }
         ],
         "no-useless-constructor": "off",
         "no-unused-vars": "warn",
-        "prettier/prettier": ["error", { "endOfLine": "auto" }],
+        "prettier/prettier": [
+          "error",
+          {
+            "endOfLine": "auto"
+          }
+        ],
         "react/function-component-definition": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+        "react/jsx-filename-extension": [
+          1,
+          {
+            "extensions": [".tsx"]
+          }
+        ],
         "react/jsx-props-no-spreading": "off",
         "react/no-unused-prop-types": "off",
         "react/prop-types": "off",
