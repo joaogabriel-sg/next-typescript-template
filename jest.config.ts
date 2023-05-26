@@ -10,7 +10,7 @@ export default createJestConfig({
     '@/(.*)': '<rootDir>/src/$1',
   },
   modulePaths: ['<rootDir>/src/'],
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/.test/setup.ts'],
   testEnvironment: 'jest-environment-jsdom',
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
 });
