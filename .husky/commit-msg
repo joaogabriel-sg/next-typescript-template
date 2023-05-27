@@ -3,4 +3,4 @@
 . "$(dirname -- "$0")/common.sh"
 
 message="🔥 Please check your commit ex: 'chore: add commitlint e husky'\n"
-npx --no -- commitlint --edit ${1} || (echo "$message" && exit 1)
+pnpm commitlint --edit $1 || (echo "$message" && exit 1)

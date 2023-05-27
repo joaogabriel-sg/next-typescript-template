@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 . "$(dirname -- "$0")/common.sh"
 
-pnpm run type-check && pnpm lint-staged
+pnpm type-check && pnpm lint-staged
