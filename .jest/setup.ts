@@ -1,1 +1,2 @@
-import '@testing-library/jest-dom/extend-expect';
+import 'next-image.mock';
+import '@testing-library/jest-dom';
