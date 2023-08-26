@@ -23,9 +23,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
+          cache: 'pnpm'
 
-      - name: Install dependencies (with cache)
-        uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Check types
         run: pnpm type-check
